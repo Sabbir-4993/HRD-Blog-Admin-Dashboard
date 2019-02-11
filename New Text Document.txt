@@ -1,0 +1,17 @@
+Existing Folder
+
+cd existing_folder
+git init
+git remote add origin URL
+git add .
+git commit -m "Initail commit"
+git push -u origin master
+
+
+
+Existing Git Reprository
+
+cd existing_repo
+git remote add origin URL
+git push -u origin --all
+git push -u origin --tags

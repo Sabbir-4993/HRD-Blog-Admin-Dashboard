@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HRD - Human Resource Development</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#d71920">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#d71920">
+
+    <link rel="stylesheet" href="vendor/revolution/css/settings.css">
+    <link rel="stylesheet" href="vendor/revolution/css/layers.css">
+    <link rel="stylesheet" href="vendor/revolution/css/navigation.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fonts/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <!-- <link rel="stylesheet" href="vendor/owlcarousel/dist/css/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+
+    <!-- Global -->
+    <link rel="stylesheet" href="css/theme.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/font-face.css">
+</head>
+
+<body>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src =
+                'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="276604203014644" theme_color="#d71920">
+    </div>
+
+    <!-- Loader -->
+    <div class="loading">
+        <div class="load">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- End Pre Loader -->
+
+    <!-- Header -->
+    <header>
+        <div class="header-wrapper">
+            <!-- Desktop Menu -->
+            <div class="header-wrapper-desktop d-none d-lg-block">
+                <div class="header header-style-1">
+                    <div class="main-header">
+                        <div class="container">
+                            <div class="main-header-container">
+                                <div class="header-logo">
+                                    <a href="index.html">
+                                        <img src="images/img/logo.png" alt="HRD LOGO" class="img-fluid w-50 p-t-10">
+                                    </a>
+                                </div>
+                                <div class="header-info">
+                                    <div class="header-info-item">
+                                        <i class="fa fa-envelope"></i>info@hrd.com.bd
+                                    </div>
+                                    <div class="header-info-item">
+                                        <i class="fa fa-phone"></i>+88-02-933-0743
+                                    </div>
+                                </div>
+                                <div class="header-button">
+                                    <div class="header-line">|</div>
+                                    <nav class="social-media social-style-1">
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/BDHRD" target="_blank">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/company/bdhrd/" target="_blank">
+                                                    <i class="fa fa-linkedin"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-header">
+                        <div class="container">
+                            <div class="sub-header-container">
+                                <nav class="header-navbar">
+                                    <ul class="navbar-menu">
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Desktop Menu -->
+
+            <!-- Mobile Menu -->
+            <div class="header-wrapper-mobile d-block d-lg-none">
+                <div class="header-mobile__bar">
+                    <div class="header-mobile__logo">
+                        <img src="images/img/logo.png" alt="HRD LOGO" class="img-fluid w-50 p-t-10">
+                    </div>
+                    <div class="header-mobile__button">
+                        <span class="humburger-box">
+                            <span class="hamburger__inner"></span>
+                        </span>
+                    </div>
+                </div>
+                <nav class="header-mobile__navbar">
+                    <ul class="navbar-menu">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- End Mobile Menu -->
+        </div>
+
+    </header>
+    <!-- End Header -->
+
+    <!-- terms intro -->
+    <section>
+        <div class="section-wrapper bg-gray p-t-67 p-b-76" id="service-intro">
+            <div class="">
+                <div class="row justify-content-center">
+                    <div class="col-md-7">
+                        <div class="service-intro">
+                            <div class="title">
+                                <h2>Privacy policy of Human Resource Development (HRD)</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End terms intro -->
+
+    <!-- start_Content -->
+    <div class="container mt-5 mb-5">
+        <div class="col-md-12">
+            <p class="text-justify">
+                Human Resource Development (HRD) collects information about its visitors to help get proper job as
+                their experience and background and connect with employers. We use this information for business
+                purposes and to let employers know the details of job seekers as employers get their right employee and
+                the employees can get hired for their right job.
+            </p>
+            <h5 class="mt-2 text-bold">How we collect information:</h5>
+            <p class="text-justify">
+                We collect information about you from our website where you submit your data and resume purposing
+                signing in or applying any job you want to get hired. We can also get your information when you submit
+                your any data on our HRD’s facebook, linkedIn or Google+ page.
+            </p>
+            <h5 class="mt-2 text-bold">How we use information:</h5>
+            <p class="text-justify">
+                We use your information for the services you apply. As a Human Resource consultancy firm, we ask demand
+                of product and services from third parties as we can provide them capable employees. In accordance with
+                experience and background we forward the information of job seekers to the third party. We forward data
+                only to those third parties who have singed a “Service Legal Agreement” or “Placement Strategy
+                Agreement” with us. We give highest priority of your information you share, we save and provide your
+                information to the third parties maintaining a safest channel. We provide your information only to
+                those third parties where you apply for job or you are interested to do as they can contact with you.
+                After sharing your information with third parties, with your consent, HRD is not liable to the safety
+                of your information.
+            </p>
+            <p class="text-justify">
+                Third parties or HRD can call the reference people you give your resume or reference field of our
+                website to know about you and your academic and service background.
+            </p>
+            <p class="text-justify">
+                We can disclose your information where legally required or subject to disclose under law.
+            </p>
+            <h5 class="mt-2 text-bold">Confidentiality and Security of information:</h5>
+            <p class="text-justify">
+                You will have full control over your information after sharing it with us even you can customize it
+                whether it is searchable or not. Your CV will be available for the third parties only when you apply
+                for their products, services or jobs. You can also block any employer as you want and remove your CV
+                from server whenever you want and even you can delete your HRD ID at any time. If any third parties
+                breach our terms about any information, we immediately terminate the contract with them.
+            </p>
+            <p class="text-justify">
+                We use strong tools and techniques like encryption, password and physical security to protect your
+                personal information against unauthorized access and disclosure. We regularly revise and update the
+                privacy policy and publish at our website.
+            </p>
+        </div>
+    </div>
+    <!-- end_Content -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-style-1">
+                <div class="main-footer py-45">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        <div class="logo">
+                                            <img src="images/img/logo.png" alt="HRD logo" class="img-fluid mx-auto d-block w-50 ">
+                                        </div>
+                                    </div>
+                                    <div class="footer-content">
+                                        <p class="m-t-7 m-b-24 text-justify">Human Resource Development (HRD), a sister
+                                            concern of HR Bangladesh Ltd (HRBD), is a leading Human Resource Consulting
+                                            firm in Bangladesh working with many national and multinational companies
+                                            all over the country. We have a vast experience in each and every aspect of
+                                            HR arena with outstandingly successful services. We have been working to
+                                            serve the standard services to our valuable clients, meet their actual
+                                            needs and seek the right people for their right places. Our focus has been
+                                            to continuously come up with developing greater tech & automated solutions
+                                            and embracing a talent, passionate & professional team.</p>
+                                        <nav class="social-media">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.facebook.com/BDHRD" target="_blank">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.linkedin.com/company/bdhrd/" target="_blank">
+                                                        <i class="fa fa-linkedin"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        Features
+                                    </div>
+                                    <div class="footer-content p-t-45">
+                                        <ul class="list-style">
+                                            <li>
+                                                <a href="about.html">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="services.html">Services</a>
+                                            </li>
+                                            </li>
+                                            <li>
+                                                <a href="contact.html">Contact</a>
+                                            </li>
+                                            <li>
+                                                <a href="terms.html">Terms & Conditions</a>
+                                            </li>
+                                            <li>
+                                                <a href="Privacy.html">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Sites Map</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        Contact us
+                                    </div>
+                                    <div class="footer-content p-t-50">
+                                        <p><strong class="text-bold">Address:</strong> 125, Ramna Century Avenue, Boro
+                                            Moghbazar, Dhaka-1217 Bangladesh</p>
+                                        <p><strong class="text-bold">Phone:</strong> +88-02-933-0743</p>
+                                        <p><strong class="text-bold">Email:</strong> info@hrd.com.bd</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        Newslleter
+                                    </div>
+                                    <div class="footer-content">
+                                        <p class="m-b-24">Subscribe to Newsletters and Stay informed about our news and events</p>
+                                        <form class="footer-form">
+                                            <input type="text" placeholder="Your Email">
+                                            <input type="submit" value="Subcribe">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+
+                                    </div>
+                                    <div class="footer-content p-t-100">
+                                        <img src="./images/img/ort-footer-world-map.png" alt="" srcset="" class="img-fluid">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-footer">
+                    <p>Copyright © <script type="text/javascript">
+                            document.write(new Date().getFullYear());
+                        </script>. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Modal Search -->
+    <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form>
+                    <input type="text" placeholder="Search here...">
+                    <button>
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery/jquery-ui.min.js"></script>
+    <script src="vendor/easing/jquery.easing.min.js"></script>
+    <script src="vendor/mbbootstrap/mdb.min.js"></script>
+    <script src="vendor/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- <script src="vendor/owlcarousel/dist/owl.carousel.min.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="vendor/lightcase/lightcase.js"></script>
+
+    <script src="js/config-slider.js"></script>
+    <script src="js/config-owl-carousel.js"></script>
+    <script src="js/theme.js"></script>
+
+</body>
+
+</html>

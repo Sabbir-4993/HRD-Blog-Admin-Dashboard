@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HRD - Human Resource Development</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#d71920">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#d71920">
+
+    <link rel="stylesheet" href="vendor/revolution/css/settings.css">
+    <link rel="stylesheet" href="vendor/revolution/css/layers.css">
+    <link rel="stylesheet" href="vendor/revolution/css/navigation.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fonts/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/slick/slick.css">
+    <!-- <link rel="stylesheet" href="vendor/owlcarousel/dist/css/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+
+    <!-- Global -->
+    <link rel="stylesheet" href="css/theme.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/font-face.css">
+</head>
+
+<body>
+
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src =
+                'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat" attribution=setup_tool page_id="276604203014644" theme_color="#d71920">
+    </div>
+
+    <!-- Loader -->
+    <div class="loading">
+        <div class="load">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    <!-- End Pre Loader -->
+
+    <!-- Header -->
+    <header>
+        <div class="header-wrapper">
+            <!-- Desktop Menu -->
+            <div class="header-wrapper-desktop d-none d-lg-block">
+                <div class="header header-style-1">
+                    <div class="main-header">
+                        <div class="container">
+                            <div class="main-header-container">
+                                <div class="header-logo">
+                                    <a href="index.html">
+                                        <img src="images/img/logo.png" alt="HRD LOGO" class="img-fluid w-50 p-t-10">
+                                    </a>
+                                </div>
+                                <div class="header-info">
+                                    <div class="header-info-item">
+                                        <i class="fa fa-envelope"></i>info@hrd.com.bd
+                                    </div>
+                                    <div class="header-info-item">
+                                        <i class="fa fa-phone"></i>+88-02-933-0743
+                                    </div>
+                                </div>
+                                <div class="header-button">
+                                    <div class="header-line">|</div>
+                                    <nav class="social-media social-style-1">
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.facebook.com/BDHRD" target="_blank">
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/company/bdhrd/" target="_blank">
+                                                    <i class="fa fa-linkedin"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-header">
+                        <div class="container">
+                            <div class="sub-header-container">
+                                <nav class="header-navbar">
+                                    <ul class="navbar-menu">
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="services.html">Services</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Desktop Menu -->
+
+            <!-- Mobile Menu -->
+            <div class="header-wrapper-mobile d-block d-lg-none">
+                <div class="header-mobile__bar">
+                    <div class="header-mobile__logo">
+                        <img src="images/img/logo.png" alt="HRD LOGO" class="img-fluid w-50 p-t-10">
+                    </div>
+                    <div class="header-mobile__button">
+                        <span class="humburger-box">
+                            <span class="hamburger__inner"></span>
+                        </span>
+                    </div>
+                </div>
+                <nav class="header-mobile__navbar">
+                    <ul class="navbar-menu">
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- End Mobile Menu -->
+        </div>
+
+    </header>
+    <!-- End Header -->
+
+    <!-- terms intro -->
+    <section>
+        <div class="section-wrapper bg-gray p-t-67 p-b-76" id="service-intro">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-7">
+                        <div class="service-intro">
+                            <div class="title">
+                                <h2>Terms & Conditions</h2>
+                                <!-- <p>
+                      We meet professional needs of job seekers & employers and provide our clients full-service HR Solutions
+                    </p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End terms intro -->
+
+    <!-- start_Content -->
+    <div class="container mt-5 mb-5">
+        <div class="col-md-12">
+            <p class="text-justify">
+                This page states the Terms of Use ("Terms") under which you ("You") may use the Human Resource
+                Development (HRD) Sites and the Services (each as defined below).
+            </p>
+
+            <p class="text-justify">
+                These Terms constitute a binding agreement between You and HRD, or the HRD company operating the Web
+                site for the country in which You live or in which business is headquartered (“HRD”), and are deemed
+                accepted by You each time that You use or access HRD Site or HRD Services. If You do not accept the
+                Terms stated here, do not use the HRD Sites and the HRD Services.
+            </p>
+
+            <p class="text-justify">
+                The HRD Sites also include on-line communities and communication tools designed to facilitate valuable
+                professional and personal networking ("HRD Networking") among users of the HRD Sites ("Users"). The HRD
+                Sites also allow Users to create individual profiles, which may include personal information
+                ("Profiles"), and to make these Profiles, or aspects thereof, public. In addition, HRD may collect
+                information about You from publicly-available websites and may use this information to create a Profile
+                or append it to an existing Profile.
+            </p>
+
+            <p class="text-justify">
+                HRD may revise these Terms at any time by posting an updated version to this Web page. You should visit
+                this page periodically to review the most current Terms because they are binding on You.
+            </p>
+
+            <p class="text-justify">
+                Users who violate these Terms may have their access and use of the HRD Sites suspended or terminated,
+                at HRD’s discretion.
+            </p>
+
+            <p class="text-justify">
+                You may not use the HRD Content or Profiles to determine a consumer's eligibility for:
+                <ol type="a">
+                    <li>
+                        credit or insurance for personal, family, or household purposes;
+                    </li>
+                    <li>
+                        employment; or
+                    </li>
+                    <li>
+                        a government license or benefit.
+                    </li>
+                </ol>
+            </p>
+
+            <h5 class="mt-2 text-bold">1. Use of HRD Content.</h5>
+
+            <p class="text-justify">
+                HRD authorizes you, subject to these Terms, to access and use the HRD Sites and the HRD Content (as
+                defined below) and to download and print the content available on or from the HRD Sites solely for your
+                personal, non-commercial use. You cannot use this content for any commercial means.
+            </p>
+
+            <h5 class="mt-2 text-bold text-justify">2. Use of the HRD Services.</h5>
+
+            <p class="text-justify">
+                The job posting, CV database (“HRD CV Database”) and other features of the HRD Sites may be used only
+                by individuals seeking employment and/or career information and by employers seeking employees. In
+                addition, HRD Networking and Profiles may be used by individuals for permitted professional and
+                personal networking purposes. Your use of the HRD Services is also subject to any other contracts You
+                may have with HRD. In the case of any conflict between these Terms and any contract you have with HRD,
+                the terms of your contract will prevail. The term “post” as used herein shall mean information that You
+                submit, publish or display on a HRD Site.
+            </p>
+
+            <p class="text-justify">
+                All HRD Users agree to not:
+            </p>
+
+            <p class="text-justify">
+                (a) post any content or material that promotes or endorses false or misleading information or illegal
+                activities, or endorses or provides instructional information about illegal activities or other
+                activities prohibited by these Terms, such as making or buying illegal weapons, violating someone's
+                privacy, providing or creating computer viruses or pirating media;
+            </p>
+
+            <p class="text-justify">
+                (b) set more than one copy of the same CV to visible at any one time;
+            </p>
+
+            <p class="text-justify">
+                (c) violate or attempt to violate the security of any HRD Site including attempting to probe, scan or
+                test the vulnerability of a system or network or to breach security or authentication measures without
+                proper authorization;
+            </p>
+
+            <p class="text-justify">
+                (d) post or submit to any HRD Site any incomplete, false or inaccurate biographical information or
+                information which is not Your own;
+            </p>
+
+            <p class="text-justify">
+                (e) forge any TCP/IP packet header or any part of the header information in any e-mail or newsgroup
+                posting;
+            </p>
+
+            <p class="text-justify">
+                (f) share with a third party any login credentials to any HRD Site;
+            </p>
+
+            <p class="text-justify">
+                (g) access data not intended for You or logging into a server or account which You are not authorized
+                to access;
+            </p>
+
+            <p class="text-justify">
+                (h) post content that contains restricted or password-only access pages, or hidden pages or images;
+            </p>
+
+            <p class="text-justify">
+                (i) reverse engineer or decompile any parts of any HRD Site;
+            </p>
+
+            <p class="text-justify">
+                (j) take any action that imposes an unreasonable or disproportionately large load on any HRD Site's
+                infrastructure;
+            </p>
+
+            <p class="text-justify">
+                (k) use any device to navigate or search any HRD Site other than the tools available on the Site,
+                generally available third party web browsers, or other tools approved by HRD;
+            </p>
+
+            <p class="text-justify">
+                (l) use any data mining, robots or similar data gathering or extraction methods;
+            </p>
+            <p class="text-justify">
+                (m) aggregate, copy or duplicate in any manner any of the HRD Content or information available from any
+                HRD Site, including expired job postings, other than as permitted by these Terms;
+            </p>
+
+            <p class="text-justify">
+                (n) frame or link to any HRD Content or information available from any HRD Site, unless permitted by
+                these Terms;
+            </p>
+
+            <p class="text-justify">
+                (o) post any CV or Profile, or apply for any job on behalf of another party;
+            </p>
+
+            <p class="text-justify">
+                (p) defer any contact from an employer to any agent, agency, or other third party;
+            </p>
+
+            <p class="text-justify">
+                (q) solicit passwords or personally identifiable information from other Users;
+            </p>
+
+            <p class="text-justify">
+                (r) delete or alter any material posted by any other person or entity;
+            </p>
+
+            <p class="text-justify">
+                (s) harass, incite harassment or advocate harassment of any group, company, or individual;
+            </p>
+
+            <p class="text-justify">
+                (t) send unsolicited mail or email, make unsolicited phone calls or send unsolicited faxes promoting
+                and/or advertising products or services to any User, or contact any users that have specifically
+                requested not to be contacted by You;
+            </p>
+
+            <p class="text-justify">
+                (u) transmit, post, distribute, store or destroy material, including without limitation HRD Content, in
+                violation of any applicable law or regulation, including but not limited to laws or regulations
+                governing the collection, processing, or transfer of personal information, or in breach of HRD’s
+                privacy policy;
+            </p>
+
+            <p class="text-justify">
+                (v) attempt to interfere with service to any User, host or network, including, without limitation, via
+                means of submitting a virus to any HRD Site, overloading, "flooding", "spamming", "mailbombing" or
+                "crashing";
+            </p>
+
+            <p class="text-justify">
+                (w) promote or endorse an illegal or unauthorized copy of another person's copyrighted work, such by as
+                providing or making available pirated computer programs or links to them, providing or making available
+                information to circumvent manufacture-installed copy-protect devices, or providing or making available
+                pirated music or other media or links to pirated music or other media files;
+            </p>
+
+            <p class="text-justify">
+                (x) use the HRD Services for any unlawful purpose or any illegal activity, or post or submit any
+                content, CV, or job posting that is defamatory, libelous, implicitly or explicitly offensive, vulgar,
+                obscene, threatening, abusive, hateful, racist, discriminatory, of a menacing character or likely to
+                cause annoyance, inconvenience, embarrassment, anxiety or could cause harassment to any person or
+                include any links to pornographic, indecent or sexually explicit material of any kind, as determined by
+                HRD’s discretion; or
+            </p>
+
+            <p class="text-justify">
+                (y) post any CV which is not a genuine CV and which attempts to advertise or promote products or
+                services.
+            </p>
+
+            <p class="text-justify">
+                Violations of system or network security may result in civil and/or criminal liability. HRD will
+                investigate occurrences which may involve such violations and may involve, and cooperate with, law
+                enforcement authorities in prosecuting Users who are involved in such violations.
+                You are responsible for maintaining the confidentiality of Your account, Profile and passwords, as
+                applicable. You may not share Your password or other account access information with any other party,
+                temporarily or permanently, and You shall be responsible for all uses of Your HRD Site registrations
+                and passwords, whether or not authorized by You. You agree to immediately notify HRD of any
+                unauthorized use of Your account, Profile, or passwords.
+            </p>
+
+            <h5 class="mt-2 text-bold">3. Additional Terms Applicable to Employers.</h5>
+
+            <p class="text-justify">
+                Employers are solely responsible for their postings on HRD Sites. HRD is not to be considered to be an
+                employer with respect to Your use of any HRD Site and HRD shall not be responsible for any employment
+                decisions, for whatever reason, made by any entity posting jobs on any HRD Site.
+            </p>
+
+            <p class="text-justify">
+                You understand and acknowledge that if You cancel Your employer account or Your employer account is
+                terminated, all Your account information from HRD, including saved CVs, network contacts, and email
+                mailing lists, will be marked as deleted in and may be deleted from HRD's databases. Information may
+                continue to be available for some period of time because of delays in propagating such deletion through
+                HRD’s web servers.
+            </p>
+
+            <p class="text-justify">
+                In order to protect our HRD Users from commercial advertising or solicitation, HRD reserves the right
+                to restrict the number of e-mails which an employer may send to Users to a number which HRD deems
+                appropriate in its sole discretion. You shall use the HRD Networking and Profiles in accordance with
+                all applicable privacy and data protection laws.
+            </p>
+
+            <h5 class="mt-2 text-bold">Job postings</h5>
+
+            <p class="text-justify">
+                A Job posting may not contain:
+            </p>
+
+            <p class="text-justify">
+                (a) the names, logos or trademarks of unaffiliated companies other than those of your customer save
+                where expressly agreed by HRD;
+            </p>
+
+            <p class="text-justify">
+                (b) more than one job or job description, more than one location, or more than one job category, unless
+                the product so allows;
+            </p>
+
+            <p class="text-justify">
+                (c) any hyperlinks, other than those specifically authorized by HRD;
+            </p>
+
+            <p class="text-justify">
+                (d) misleading, unreadable, or "hidden" keywords, repeated keywords or keywords that are irrelevant to
+                the job opportunity being presented, as determined in HRD’s reasonable discretion;
+            </p>
+
+            <p class="text-justify">
+                (e) the names of colleges, cities, states, towns or countries that are unrelated to the posting;
+            </p>
+
+            <p class="text-justify">
+                (f) inaccurate, false, or misleading information; and
+            </p>
+
+            <p class="text-justify">
+                (g) material or links to material that exploits people in a sexual, violent or other manner.
+            </p>
+
+            <p class="text-justify">
+                You may not use Your HRD job posting or HRD to:
+            </p>
+
+            <p class="text-justify">
+                (a) post any business opportunity that pays commission only unless the posting clearly states that the
+                available job pays commission only and clearly describes the product or service that the job seeker
+                would be selling;
+            </p>
+
+            <p class="text-justify">
+                (b) promote any opportunity that does not represent bona fide employment;
+            </p>
+
+            <p class="text-justify">
+                (c) post jobs on any HRD Site for modeling, acting, talent or entertainment agencies or talent scouting
+                positions;
+            </p>
+
+            <p class="text-justify">
+                (d) advertise sexual services or seek employees for jobs of a sexual nature;
+            </p>
+
+            <p class="text-justify">
+                (e) request the use of human body parts or the donation of human parts, including, without limitation,
+                reproductive services such as egg donation and surrogacy;
+            </p>
+
+            <p class="text-justify">
+                (f) endorse a particular political party, political agenda, political position or issue;
+            </p>
+
+            <p class="text-justify">
+                (g) post jobs that require citizenship of any particular country or lawful permanent residence in a
+                country as a condition of employment, unless otherwise required in order to comply with law,
+                regulations, executive order, or federal, state or local government contract;
+            </p>
+
+            <p class="text-justify">
+                (h) post jobs that include any screening requirement or criterion in connection with a job posting
+                where such requirement or criterion is not an actual and legal requirement of the posted job;
+            </p>
+
+            <p class="text-justify">
+                (i) post jobs in a manner that does not comply with applicable local, national and international laws,
+                including but not limited to laws relating to labor and employment, equal employment opportunity and
+                employment eligibility requirements, data privacy, data access and use, and intellectual property;
+            </p>
+
+            <p class="text-justify">
+                (j) with respect to Profiles, determine a consumer's eligibility for:
+                <ol type="a">
+                    <li>credit or insurance for
+                        personal, family, or household purposes;</li>
+                    <li>employment; or</li>
+                    <li>a government license or benefit;</li>
+                </ol>
+            </p>
+
+            <p class="text-justify">
+                (k) sell, promote or advertise products or services;
+            </p>
+
+            <p class="text-justify">
+                (l) post any franchise, pyramid scheme, "club membership", distributorship, multi-level marketing
+                opportunity, or sales representative agency arrangement;
+            </p>
+
+            <p class="text-justify">
+                (m) Post any business opportunity that requires an upfront or periodic payment or requires recruitment
+                of other members, sub-distributors or sub-agents;
+            </p>
+
+            <p class="text-justify">
+                (n) promote a particular religion; and
+            </p>
+
+            <p class="text-justify">
+                (o) except where allowed by applicable law, post jobs which require the applicant to provide
+                information relating to his/her
+                <ol type="i">
+                    <li>racial or ethnic origin</li>
+                    <li>political beliefs</li>
+                    <li>philosophical or religious beliefs</li>
+                    <li>membership of a trade union</li>
+                    <li>physical or mental health</li>
+                    <li>sexual life</li>
+                    <li>the commission of criminal offences or proceedings or</li>
+                    <li>age.</li>
+                </ol>
+            </p>
+
+            <p class="text-justify">
+                HRD reserves the right to remove any job posting or content from any HRD Site, which in the reasonable
+                exercise of HRD’s discretion, does not comply with the above Terms, or if any content is posted that
+                HRD believes is not in the best interest of HRD.
+            </p>
+
+            <p class="text-justify">
+                If at any time during Your use of the HRD Services, You made a misrepresentation of fact to HRD or
+                otherwise misled HRD in regards to the nature of Your business activities, HRD will have grounds to
+                terminate Your use of the HRD Services.
+            </p>
+
+            <h5 class="mt-2 text-bold">CV Database</h5>
+
+            <p class="text-justify">
+                Use of the HRD CV Database by Employers
+            </p>
+
+            <p class="text-justify">
+                You shall use the HRD Resume Database as provided in these Terms and in any contract You have with HRD.
+                You shall use the HRD Resume Database in accordance with all applicable privacy and data protection
+                laws, and You agree You shall not further disclose any of the data from HRD Resume Database to any
+                third party, unless You are an authorized recruitment agency, staffing agency, advertising or other
+                agency or using the resume explicitly for employment purposes.
+            </p>
+
+            <p class="text-justify">
+                You shall take appropriate physical, technical, and administrative measures to protect the data You
+                have obtained from HRD CV Database from loss, misuse, unauthorized access, disclosure, alteration or
+                destruction. You shall not share CV Database seat-based license login credentials with any other party,
+                nor share CV Database pay-per-view license login credentials with any party.
+            </p>
+
+            <h5 class="mt-2 text-bold">The HRD CV Database shall not be used:</h5>
+
+            <p class="text-justify">
+                (a) for any purpose other than as an employer seeking employees, including but not limited to
+                advertising promotions, products, or services to any CV holders;
+            </p>
+
+            <p class="text-justify">
+                b) to make unsolicited phone calls or faxes or send unsolicited mail, email, or newsletters to CV
+                holders or to contact any individual unless they have agreed to be contacted (where consent is required
+                or, if express consent is not required, who has informed you that they do not want to be contacted); or
+            </p>
+
+            <p class="text-justify">
+                (c) to source candidates or to contact job seekers or CV holders in regards to career fairs and
+                business opportunities prohibited by Section 3.
+            </p>
+
+            <p class="text-justify">
+                In order to ensure a safe and effective experience for all of our customers, HRD reserves the right to
+                limit the amount of data (including CV views) that may be accessed by You in any given time period.
+                These limits may be amended in HRD’s sole discretion from time to time.
+            </p>
+
+            <h5 class="mt-2 text-bold">4. Additional terms applicable to Job Seekers.</h5>
+
+            <p class="text-justify">
+                When You register with HRD Site, You will be asked to create an account and provide HRD with certain
+                information including, without limitation, a valid email address (Your "Information").
+            </p>
+
+            <p class="text-justify">
+                Any Profile You submit must be accurate and describe You, an individual person. The Profile requires
+                standard fields to be completed and you may not include in these fields any telephone numbers, street
+                addresses, email addresses or other means of contacting You, other than Your last name and URLs.
+            </p>
+
+            <p class="text-justify">
+                You acknowledge and agree that You are solely responsible for the form, content and accuracy of any CV
+                or material contained therein placed by You on the HRD Sites.
+            </p>
+
+            <p class="text-justify">
+                HRD reserves the right to offer third party services and products to You based on the preferences that
+                You identify in Your registration and at any time thereafter or you have agreed to receive, such offers
+                may be made by HRD or by third parties. Please see HRD's Privacy Policy, for further details regarding
+                Your Information.
+            </p>
+
+            <p class="text-justify">
+                You understand and acknowledge that You have no ownership rights in Your account and that if You cancel
+                Your HRD account or Your HRD account is terminated, all Your account information from HRD, including
+                CVs, Profiles, cover letters, saved jobs, questionnaires will be marked as deleted in and may be
+                deleted from HRD's databases and will be removed from any public area of the HRD Sites. Information may
+                continue to be available for some period of time because of delays in propagating such deletion through
+                HRD’s web servers. In addition, third parties may retain saved copies of Your Information.
+            </p>
+
+            <p class="text-justify">
+                HRD reserves the right to delete Your account and all of Your Information after a significant duration
+                of inactivity.
+            </p>
+
+            <h5 class="mt-2 text-bold">5. User Content and Submissions.</h5>
+
+            <p class="text-justify">
+                You understand that all information, data, text, software, music, sound, photographs, graphics, video,
+                advertisements, messages or other materials submitted, posted or displayed by You on or through a HRD
+                Site ("User Content") is the sole responsibility of the person from which such User Content originated.
+                HRD claims no ownership or control over any User Content. You or a third party licensor, as
+                appropriate, retain all patent, trademark and copyright to any User Content you submit, post or display
+                on or through HRD and you are responsible for protecting those rights, as appropriate. By submitting,
+                posting or displaying User Content on or through HRD, you grant HRD a worldwide, non-exclusive,
+                royalty-free, transferable, sub-licensable license to use, reproduce, adapt, distribute and publish
+                such User Content through HRD. In addition, by submitting, posting or displaying User Content which is
+                intended to be available to the general public, you grant HRD a worldwide, non-exclusive, royalty-free
+                license to reproduce, adapt, distribute and publish such User Content for the purpose of promoting HRD
+                and its services. HRD will discontinue this licensed use within a commercially reasonable period after
+                such User Content is removed from HRD. HRD reserves the right to refuse to accept, post, display or
+                transmit any User Content in its sole discretion.
+            </p>
+
+            <p class="text-justify">
+                You also represent and warrant that You have the right to grant, or that the holder of any rights,
+                including moral rights in such content has completely and effectively waived all such rights and
+                validly and irrevocably granted to You the right to grant, the license stated above. If You post User
+                Content in any public area of any HRD Site, You also permit any User to access, display, view, store
+                and reproduce such User Content for personal use. Subject to the foregoing, the owner of such User
+                Content placed on any HRD Site retains any and all rights that may exist in such User Content. HRD may
+                review and remove any User Content that, in its sole judgment, violates these Terms, violates
+                applicable laws, rules or regulations, is abusive, disruptive, offensive or illegal, or violates the
+                rights of, or harms or threatens the safety of, Users of any HRD Site. HRD reserves the right to expel
+                Users and prevent their further access to the HRD Sites and/or use of HRD Services for violating the
+                Terms or applicable laws, rules or regulations. HRD may take any action with respect to User Content
+                that it deems necessary or appropriate in its sole discretion if it believes that such User Content
+                could create liability for HRD, damage HRD’s brand or public image, or cause HRD to lose Users or (in
+                whole or in part) the services of its ISPs or other suppliers.
+            </p>
+
+            <p class="text-justify">
+                HRD does not represent or guarantee the truthfulness, accuracy, or reliability of User Content,
+                derivative works from User Content, or any other communications posted by Users nor does HRD endorse
+                any opinions expressed by Users. You acknowledge that any reliance on material posted by other Users
+                will be at Your own risk.
+            </p>
+
+            <p class="text-justify">
+                The following is a partial list of User Content that is prohibited on the Application. The list below
+                is for illustration only and is not a complete list of all prohibited User Content.
+            </p>
+
+            <h5 class="mt-2 text-bold">Content that:</h5>
+
+            <p class="text-justify">
+                promotes or endorses an illegal or unauthorized copy of another person's copyrighted work, such as
+                providing or making available pirated computer programs or links to them, providing or making available
+                information to circumvent manufacture-installed copy-protect devices, or providing or making available
+                pirated music or other media or links to pirated music or other media files;
+            </p>
+
+            <p class="text-justify">
+                contains restricted or password only access pages, or hidden pages or images;
+            </p>
+
+            <p class="text-justify">
+                displays or links to pornographic, indecent or sexually explicit material of any kind;
+            </p>
+
+            <p class="text-justify">
+                harasses, incites harassment or advocates harassment of any group or individual;
+            </p>
+
+            <p class="text-justify">
+                involves the transmission of “junk mail”, “chain letters,” or unsolicited mass mailing, “spamming” or
+                “phishing”;
+            </p>
+
+            <p class="text-justify">
+                promotes or endorses false or misleading information or illegal activities or conduct that is abusive,
+                threatening, obscene, defamatory or libelous;
+            </p>
+
+            <p class="text-justify">
+                is implicitly or explicitly offensive, such as User Content that engages in, endorses or promotes
+                racism, bigotry, discrimination, hatred or physical harm of any kind against any group or individual;
+            </p>
+
+            <p class="text-justify">
+                provides or links to material that exploits people under the age of 18 in a sexual, violent or other
+                manner, or solicits personal information from anyone under 18; or
+            </p>
+
+            <p class="text-justify">
+                provides instructional information about illegal activities or other activities prohibited by these
+                Terms, including without limitation, making or buying illegal weapons, violating someone's privacy,
+                providing or creating computer viruses or pirating any media; and
+            </p>
+
+            <p class="text-justify">
+                solicits passwords or personal identifying information from other Users.
+            </p>
+
+            <p class="text-justify">
+                Any Profile You submit must describe You, an individual person. Examples of inappropriate and
+                prohibited Profiles include, but are not limited to, Profiles that purport to represent an animal,
+                place, inanimate object, fictional character, or real individual that is not You.
+            </p>
+
+            <p class="text-justify">
+                You may not include, in any User Content submitted to HRD Networking, information that may be
+                interpreted as a direct solicitation, advertisement or recruitment for an available job position
+                directed to individuals seeking employment on either a full time or part time basis. In order to
+                protect our HRD Community Users from commercial advertising or solicitation, HRD reserves the right to
+                restrict the number of e-mails or other messages which a User may send to other Users to a number which
+                HRD deems appropriate in its sole discretion.
+            </p>
+
+            <p class="text-justify">
+                Profiles derived from User Content may also be made available through the HRD Sites. HRD does not make
+                any representations regarding the accuracy or validity of such derived works or their appropriateness
+                for evaluation by employers. Derived Profiles may differ significantly from User Content.
+            </p>
+
+            <p class="text-justify">
+                We appreciate hearing from our Users and welcome Your comments regarding our services and the HRD
+                Sites. Please be advised, however, that our policy does not permit us to accept or consider creative
+                ideas, suggestions, inventions or materials other than those which we have specifically requested.
+                While we do value Your feedback on our services, please be specific in Your comments regarding our
+                services and do not submit creative ideas, inventions, suggestions, or materials. If, despite our
+                request, You send us creative suggestions, ideas, drawings, concepts, inventions, or other information
+                (collectively the "Submission"), the Submission shall be the property of HRD or in the alternative,
+                where HRD cannot exclusively own all rights in the Submission, You hereby grant HRD a royalty free
+                irrevocable and perpetual license to use the Submission and HRD shall be entitled to unrestricted use
+                of the Submission for any purpose whatsoever, commercial or otherwise, without compensation to You or
+                any other person. None of the Submission shall be subject to any obligation of confidentiality on our
+                part and we shall not be liable for any use or disclosure of any Submission.
+            </p>
+
+            <h5 class="mt-2 text-bold">6. Notification of Claimed Copyright or Trademark Infringement.</h5>
+
+            <p class="text-justify">
+                If You believe that Your copyrighted work or trademark has been uploaded, posted or copied to HRD Site
+                and is accessible on such HRD Site in a way that constitutes copyright or trademark infringement,
+                please contact HRD by email at info@hrbangladesh.com.bd
+            </p>
+
+            <h5 class="mt-2 text-bold">7. Termination following Infringement of The Copyright or Other Intellectual
+                Property Rights of Others.</h5>
+
+            <p class="text-justify">
+                HRD respects the intellectual property of others, and we ask our Users and content partners to do the
+                same. The unauthorized posting, reproduction, copying, distribution, modification, public display or
+                public performance of copyrighted works constitutes infringement of the copyright owner’s rights. As a
+                condition to your use of the HRD Sites, You agree not to use any HRD Site to infringe the intellectual
+                property rights of others in any way. HRD reserves the right to terminate the accounts of any Users,
+                and block access to the HRD Sites of any Users who are repeat infringers of the copyrights, or other
+                intellectual property rights, of others. HRD reserves the right, in its sole discretion, to take these
+                actions to limit access to the Site and/or terminate the accounts of any time, in our sole discretion
+                Users who infringe any intellectual property rights of others, whether or not there is any repeat
+                infringement, with or without notice, and without any liability to the User who is terminated or to the
+                User whose access is blocked. Notwithstanding the foregoing, in the event that You believe in good
+                faith that a notice of copyright infringement has been wrongly filed against You, please contact HRD as
+                set out in Section 6 above.
+            </p>
+
+            <h5 class="mt-2 text-bold">8. Disclaimer of Warranty.</h5>
+
+            <p class="text-justify">
+                To the fullest extent possible by law, HRD does not warrant that HRD site or any HRD services will
+                operate error-free or that any HRD site and its servers are free of computer viruses or other harmful
+                mechanisms. If your use of any HRD site or the HRD content results in the need for servicing or
+                replacing equipment or data or any other costs, HRD is not responsible for those costs. The HRD sites
+                and HRD content are provided on an "as is" basis without any warranties of any kind. HRD, to the
+                fullest extent permitted by law, disclaims all warranties, whether express or implied, including the
+                warranty of merchantability, fitness for particular purpose and non-infringement. HRD makes no
+                warranties about the accuracy, reliability, completeness, or timeliness of the HRD content, services,
+                software, text, graphics, and links.
+            </p>
+
+            <h5 class="mt-2 text-bold">9. Disclaimer of Consequential Damages.</h5>
+
+            <p class="text-justify">
+                To the fullest extent possible by law, in no event shall HRD, its suppliers, or any third parties
+                mentioned on any HRD site be liable for any damages whatsoever (including, without limitation,
+                incidental and consequential damages, lost profits, or damages resulting from lost data, lost
+                employment opportunity or business interruption) resulting from the use or inability to use any HRD
+                site and the HRD content, whether based on warranty, contract, tort, or any other legal theory, and
+                whether or not HRD is advised of the possibility of such damages.
+            </p>
+
+            <h5 class="mt-2 text-bold">10. Links to Other Sites.</h5>
+
+            <p class="text-justify">
+                The HRD Sites contain links to third party Web sites. These links are provided solely as a convenience
+                to You and not as an endorsement by HRD of the contents on such third-party Web sites. HRD is not
+                responsible for the content of linked third-party sites and does not make any representations regarding
+                the content or accuracy of materials on such third party Web sites. If You decide to access linked
+                third-party Web sites, You do so at Your own risk.
+            </p>
+
+            <h5 class="mt-2 text-bold">11. No Resale or Unauthorized Commercial Use.</h5>
+            <p class="text-justify">
+                You agree not to resell or assign Your rights or obligations under these Terms. You also agree not to
+                make any unauthorized commercial use of any HRD Site.
+            </p>
+
+            <h5 class="mt-2 text-bold">12. Indemnity.</h5>
+
+            <p class="text-justify">
+                You agree to defend, indemnify, and hold harmless HRD, its affiliates, and their respective officers,
+                directors, employees and agents, from and against any claims, actions or demands, including without
+                limitation reasonable legal and accounting fees, alleging or resulting from
+                <ol type="i">
+                    <li>any User Content or other material You provide to any HRD Site,</li>
+                    <li>Your use of any HRD Content, or</li>
+                    <li>Your breach of these Terms. HRD shall provide notice to You promptly of any such claim, suit,
+                        or proceeding.</li>
+                </ol>
+            </p>
+
+            <h5 class="mt-2 text-bold">13. General.</h5>
+
+            <p class="text-justify">
+                HRD makes no claims or representations that the HRD Content may be lawfully viewed or accessed outside
+                of the Bangladesh. Access to the HRD Content may not be legal by certain persons or in certain
+                countries. If You access HRD Site You do so at Your own risk and are responsible for compliance with
+                the laws of Your jurisdiction.
+            </p>
+
+            <h5 class="mt-2 text-bold">14. Additional Terms.</h5>
+
+            <p class="text-justify">
+                Certain areas of the HRD Sites are subject to additional Terms. By using such areas, or any part
+                thereof, you agree to be bound by the additional Terms applicable to such areas.
+            </p>
+
+            <h5 class="mt-2 text-bold">15. Mobile Services.</h5>
+
+            <p class="text-justify">
+                If you use the HRD Sites through a mobile device, you agree that information about your use of the HRD
+                Sites through Your mobile device and carrier may be communicated to us, including but not limited to
+                your mobile carrier, your mobile device, or your physical location. In addition, use of the HRD Sites
+                through a mobile device may cause data to be displayed on and through Your mobile device. By accessing
+                the HRD Sites using a mobile device, you represent that to the extent you import any of Your HRD data
+                to your mobile device that you have authority to share the transferred data with your mobile carrier or
+                other access provider. In the event you change or deactivate your mobile account, you must promptly
+                update Your HRD account information to ensure that your messages are not sent to the person that
+                acquires your old number and failure to do so is your responsibility. You acknowledge You are
+                responsible for all charges and necessary permissions related to accessing the HRD Sites through Your
+                mobile access provider. Therefore, you should check with your provider to find out if the HRD Sites are
+                available and the terms for these services for your specific mobile devices.
+            </p>
+
+            <p class="text-justify">
+                By using any downloadable application to enable your use of the HRD Sites, You are explicitly
+                confirming your acceptance of the terms of the End User License Agreement associated with the
+                Application provided at download or installation, or as may be updated from time to time.
+            </p>
+
+            <h5 class="mt-2 text-bold">16. Term and Termination.</h5>
+
+            <p class="text-justify">
+                These Terms will remain in full force and effect while You are a User of any HRD Site. HRD reserves the
+                right, at its sole discretion, to pursue all of its legal remedies, including but not limited to
+                removal of Your User Content from the HRD Sites and immediate termination of Your registration with or
+                ability to access the HRD Sites and/or any other services provided to You by HRD, upon any breach by
+                You of these Terms or if HRD is unable to verify or authenticate any information You submit to a HRD
+                Site registration.
+            </p>
+        </div>
+    </div>
+    <!-- end_Content -->
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="footer-style-1">
+                <div class="main-footer py-45">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        <div class="logo">
+                                            <img src="images/img/logo.png" alt="HRD logo" class="img-fluid mx-auto d-block w-50 ">
+                                        </div>
+                                    </div>
+                                    <div class="footer-content">
+                                        <p class="m-t-7 m-b-24 text-justify">Human Resource Development (HRD), a sister
+                                            concern of HR Bangladesh Ltd (HRBD), is a leading Human Resource Consulting
+                                            firm in Bangladesh working with many national and multinational companies
+                                            all over the country. We have a vast experience in each and every aspect of
+                                            HR arena with outstandingly successful services. We have been working to
+                                            serve the standard services to our valuable clients, meet their actual
+                                            needs and seek the right people for their right places. Our focus has been
+                                            to continuously come up with developing greater tech & automated solutions
+                                            and embracing a talent, passionate & professional team.</p>
+                                        <nav class="social-media">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.facebook.com/BDHRD" target="_blank">
+                                                        <i class="fa fa-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.linkedin.com/company/bdhrd/" target="_blank">
+                                                        <i class="fa fa-linkedin"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        Features
+                                    </div>
+                                    <div class="footer-content p-t-45">
+                                        <ul class="list-style">
+                                            <li>
+                                                <a href="about.html">About Us</a>
+                                            </li>
+                                            <li>
+                                                <a href="services.html">Services</a>
+                                            </li>
+                                            </li>
+                                            <li>
+                                                <a href="contact.html">Contact</a>
+                                            </li>
+                                            <li>
+                                                <a href="terms.html">Terms & Conditions</a>
+                                            </li>
+                                            <li>
+                                                <a href="Privacy.html">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Sites Map</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        Contact us
+                                    </div>
+                                    <div class="footer-content p-t-50">
+                                        <p><strong class="text-bold">Address:</strong> 125, Ramna Century Avenue, Boro
+                                            Moghbazar, Dhaka-1217 Bangladesh</p>
+                                        <p><strong class="text-bold">Phone:</strong> +88-02-933-0743</p>
+                                        <p><strong class="text-bold">Email:</strong> info@hrd.com.bd</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+                                        Newslleter
+                                    </div>
+                                    <div class="footer-content">
+                                        <p class="m-b-24">Subscribe to Newsletters and Stay informed about our news and events</p>
+                                        <form class="footer-form">
+                                            <input type="text" placeholder="Your Email">
+                                            <input type="submit" value="Subcribe">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="col-md-3">
+                                <div class="footer-item">
+                                    <div class="footer-title">
+
+                                    </div>
+                                    <div class="footer-content p-t-100">
+                                        <img src="./images/img/ort-footer-world-map.png" alt="" srcset="" class="img-fluid">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sub-footer">
+                    <p>Copyright © <script type="text/javascript">
+                            document.write(new Date().getFullYear());
+                        </script>. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Modal Search -->
+    <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form>
+                    <input type="text" placeholder="Search here...">
+                    <button>
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery/jquery-ui.min.js"></script>
+    <script src="vendor/easing/jquery.easing.min.js"></script>
+    <script src="vendor/mbbootstrap/mdb.min.js"></script>
+    <script src="vendor/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="vendor/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- <script src="vendor/owlcarousel/dist/owl.carousel.min.js"></script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="vendor/lightcase/lightcase.js"></script>
+
+    <script src="js/config-slider.js"></script>
+    <script src="js/config-owl-carousel.js"></script>
+    <script src="js/theme.js"></script>
+
+</body>
+
+</html>
